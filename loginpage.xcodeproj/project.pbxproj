@@ -9,19 +9,23 @@
 /* Begin PBXBuildFile section */
 		EB88EBB120360BDC00A40670 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB88EBB020360BDC00A40670 /* AppDelegate.swift */; };
 		EB88EBB320360BDC00A40670 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB88EBB220360BDC00A40670 /* ViewController.swift */; };
-		EB88EBB620360BDC00A40670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB88EBB420360BDC00A40670 /* Main.storyboard */; };
 		EB88EBB820360BDC00A40670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB88EBB720360BDC00A40670 /* Assets.xcassets */; };
 		EB88EBBB20360BDC00A40670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB88EBB920360BDC00A40670 /* LaunchScreen.storyboard */; };
+		EB88EBC5203619D000A40670 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB88EBC3203619A600A40670 /* Poppins-Medium.ttf */; };
+		EB88EBC720361C0B00A40670 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB88EBC620361C0B00A40670 /* Poppins-Bold.ttf */; };
+		EB88EBC920362D0C00A40670 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB88EBC820362C2000A40670 /* Poppins-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB88EBAD20360BDC00A40670 /* loginpage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loginpage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB88EBB020360BDC00A40670 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB88EBB220360BDC00A40670 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EB88EBB520360BDC00A40670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB88EBB720360BDC00A40670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB88EBBA20360BDC00A40670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB88EBBC20360BDC00A40670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB88EBC3203619A600A40670 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		EB88EBC620361C0B00A40670 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		EB88EBC820362C2000A40670 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		EB88EBAF20360BDC00A40670 /* loginpage */ = {
 			isa = PBXGroup;
 			children = (
+				EB88EBC22036186000A40670 /* fonts */,
 				EB88EBB020360BDC00A40670 /* AppDelegate.swift */,
 				EB88EBB220360BDC00A40670 /* ViewController.swift */,
-				EB88EBB420360BDC00A40670 /* Main.storyboard */,
 				EB88EBB720360BDC00A40670 /* Assets.xcassets */,
 				EB88EBB920360BDC00A40670 /* LaunchScreen.storyboard */,
 				EB88EBBC20360BDC00A40670 /* Info.plist */,
 			);
 			path = loginpage;
+			sourceTree = "<group>";
+		};
+		EB88EBC22036186000A40670 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EB88EBC3203619A600A40670 /* Poppins-Medium.ttf */,
+				EB88EBC620361C0B00A40670 /* Poppins-Bold.ttf */,
+				EB88EBC820362C2000A40670 /* Poppins-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB88EBC5203619D000A40670 /* Poppins-Medium.ttf in Resources */,
 				EB88EBBB20360BDC00A40670 /* LaunchScreen.storyboard in Resources */,
 				EB88EBB820360BDC00A40670 /* Assets.xcassets in Resources */,
-				EB88EBB620360BDC00A40670 /* Main.storyboard in Resources */,
+				EB88EBC720361C0B00A40670 /* Poppins-Bold.ttf in Resources */,
+				EB88EBC920362D0C00A40670 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,14 +160,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EB88EBB420360BDC00A40670 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EB88EBB520360BDC00A40670 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EB88EBB920360BDC00A40670 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
